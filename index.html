@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Терраса</title>
+</head>
+<body>
+    <header class="header">
+        <div class="call__modal hide">
+            <div class="modal__dialoge">
+                <div class="modal__content call-modal">
+                    <div class="close call-modal__close">&times;</div>
+                    <h2 class="call-modal__title">Закажите звонок</h2>
+                    <form class="call-modal__form">
+                        <input type="text" class="call-modal__input form__input" placeholder="Имя">
+                        <input type="text" class="call-modal__input form__input" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                        <input type="text" class="call-modal__input form__input" placeholder="Комментарий">
+                        <button class="btn form__btn call-modal__btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="header__top-wrap container">
+                <img src="img/icon/mob-call.svg" alt="phone" class="mob-call call-trig">
+                <div class="logo-block header__logo-block">
+                    <a href="#" class="header__logo logo">
+                        <img src="img/logo-head.svg" alt="Терраса" class="header__logo-img">
+                </a>
+                <div class="select select-geo">
+                    <img src="img/icon/geo.svg" alt="geo" class="select-geo__icon">
+                    <div class="select__header select-geo__header">
+                        <div class="select-geo__text">Москва</div>
+                        <img src="img/icon/arr-geo.svg" alt="arr" class="select-geo__arr">
+                    </div>
+                </div>
+                </div>
+                <div class="mob-nav">
+                    <img src="img/icon/mob-menu.svg" alt="=" class="mob-nav__img">
+                    <div class="mob-menu hide">
+                        <div class="close mob-menu__close">&times;</div>
+                        <h2 class="mob-menu__title">Меню</h2>
+                        <ul class="mob-menu__nav">
+                            <li class="mob-menu__nav-item"><a href="#" class="mob-menu__nav-link">Контакты</a></li>
+                            <li class="mob-menu__nav-item"><a href="#" class="mob-menu__nav-link">Акции</a></li>
+                            <li class="mob-menu__nav-item"><a href="#" class="mob-menu__nav-link">Услуги</a></li>
+                            <li class="mob-menu__nav-item"><a href="#" class="mob-menu__nav-link">Магазины</a></li>
+                        </ul>
+                        <h2 class="mob-menu__title">Каталог</h2>
+                        <div class="mob-menu__cataloge">
+                            <div class="mob-menu__cataloge-item">
+                                <div class="mob-menu__cataloge-header">
+                                    <a href="cataloge.html" class="mob-menu__cataloge-title">Тераская доска</a>
+                                    <button class="mob-menu__cataloge-icon"></button>
+                                </div>
+                                <div class="mob-menu-cataloge-nav-more hide">
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Бренды</span>
+                                        <a href="#" class="cataloge-nav-more__link">SAVEWOOD</a>
+                                    </div>
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Страна</span>
+                                        <a href="#" class="cataloge-nav-more__link">Россия</a>
+                                    </div>
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Палитра</span>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-menu__cataloge-item">
+                                <div class="mob-menu__cataloge-header">
+                                    <a href="cataloge.html" class="mob-menu__cataloge-title">Тераская доска</a>
+                                    <button class="mob-menu__cataloge-icon"></button>
+                                </div>
+                                <div class="mob-menu-cataloge-nav-more hide">
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Бренды</span>
+                                        <a href="#" class="cataloge-nav-more__link">SAVEWOOD</a>
+                                    </div>
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Страна</span>
+                                        <a href="#" class="cataloge-nav-more__link">Россия</a>
+                                    </div>
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Палитра</span>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-menu__cataloge-item">
+                                <div class="mob-menu__cataloge-header">
+                                    <a href="cataloge.html" class="mob-menu__cataloge-title">Тераская доска</a>
+                                    <button class="mob-menu__cataloge-icon"></button>
+                                </div>
+                                <div class="mob-menu-cataloge-nav-more hide">
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Бренды</span>
+                                        <a href="#" class="cataloge-nav-more__link">SAVEWOOD</a>
+                                    </div>
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Страна</span>
+                                        <a href="#" class="cataloge-nav-more__link">Россия</a>
+                                    </div>
+                                    <div class="cataloge-nav-more__item">
+                                        <span class="cataloge-nav-more__title">Палитра</span>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                        <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                        <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob-menu-info">
+                            <a href="#" class="header-info__link">Доставка и оплата</a>
+                            <a href="#" class="header-info__link">Гарантия и возврат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__column-center column-center">
+                    <div class="header__business-hours">
+                        <img src="img/icon/clock.svg" alt="clock" class="business-hours__icon">
+                        <div class="business-hours">
+                            <div class="business-hours__item">
+                                <span class="business-hours__item-title">Офис:</span>
+                                <span class="business-hours__item-descr">10:00 - 21:00</span>
+                            </div>
+                            <div class="business-hours__item">
+                                <span class="business-hours__item-title">Склад:</span>
+                                <span class="business-hours__item-descr">10:00 - 18:00</span>
+                            </div>
+                            <div class="business-hours__item">
+                                <span class="business-hours__item-title">Сб - Вс:</span>
+                                <span class="business-hours__item-descr">Выходной</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-info">
+                    <a href="#" class="header-info__link">Доставка и оплата</a>
+                    <a href="#" class="header-info__link">Гарантия и возврат</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom__wrap">
+                    <div class="cataloge__nav hide">
+                        <ul class="cataloge-nav">
+                            <li class="cataloge-nav__item"><a href="cataloge.html" class="cataloge-nav__link">Терасная доска</a></li>
+                            <li class="cataloge-nav__item"><a href="cataloge.html" class="cataloge-nav__link">Терасная доска</a></li>
+                            <li class="cataloge-nav__item"><a href="cataloge.html" class="cataloge-nav__link">Терасная доска</a></li>
+                        </ul>
+                        <div class="cataloge-nav-more hide">
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Бренды</span>
+                                <a href="#" class="cataloge-nav-more__link">SAVEWOOD</a>
+                            </div>
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Страна</span>
+                                <a href="#" class="cataloge-nav-more__link">Россия</a>
+                            </div>
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Палитра</span>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                            </div>
+                        </div>
+                        <div class="cataloge-nav-more hide">
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Бренды</span>
+                                <a href="#" class="cataloge-nav-more__link">SAVEWOOD</a>
+                            </div>
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Страна</span>
+                                <a href="#" class="cataloge-nav-more__link">Россия</a>
+                            </div>
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Палитра</span>
+                                <a href="#" class="cataloge-nav-more__link">Темно-корopичнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                            </div>
+                        </div>
+                        <div class="cataloge-nav-more hide">
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Бренды</span>
+                                <a href="#" class="cataloge-nav-more__link">SAVEWOOD</a>
+                            </div>
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Страна</span>
+                                <a href="#" class="cataloge-nav-more__link">Россия</a>
+                            </div>
+                            <div class="cataloge-nav-more__item">
+                                <span class="cataloge-nav-more__title">Палитра</span>
+                                <a href="#" class="cataloge-nav-more__link">Пdfdьный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                                <a href="#" class="cataloge-nav-more__link">Пепельный</a>
+                                <a href="#" class="cataloge-nav-more__link">Темно-коричнивый</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn cataloge-btn">
+                        <img src="img/icon/btn-icon.svg" alt="=" class="cataloge-btn__icon">
+                        Каталог товаров</button>
+                    <ul class="header-bottom__nav">
+                        <li class="header-bottom__nav-item"><a href="#" class="header-bottom__nav-link">Контакты</a></li>
+                        <li class="header-bottom__nav-item"><a href="#" class="header-bottom__nav-link">Акции</a></li>
+                        <li class="header-bottom__nav-item"><a href="#" class="header-bottom__nav-link">Услуги</a></li>
+                        <li class="header-bottom__nav-item"><a href="#" class="header-bottom__nav-link">Магазины</a></li>
+                    </ul>
+                    <div class="header-bottom__btns">
+                        <a href="#" class="header-bottom__btns-item comparison-btn">
+                            <img src="img/icon/comparison.svg" alt="Сравнение" class="header-bottom__btns-icon">
+                            <span class="header-bottom__btns-text">Сравнение</span>
+                        </a>
+                        <a href="#" class="header-bottom__btns-item cart-btn">
+                            <img src="img/icon/cart.svg" alt="Корзина" class="header-bottom__btns-icon">
+                            <span class="header-bottom__btns-text">12 000 &#8381;</span>
+                        </a>
+                        <a href="#" class="header-bottom__btns-item search-btn">
+                            <img src="img/icon/search.svg" alt="Поиск" class="header-bottom__btns-icon">
+                        </a>
+                        <a href="#" class="header-bottom__btns-item wish-btn"></a>
+                    </div>
+                    <button class="btn callorder-btn call-trig">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+    <div class="banner">
+    </div>
+    <section class="section about">
+        <h2 class="section-title">О нас</h2>
+        <div class="about__content">
+            <img src="img/about-bg.jpg" alt="about" class="about__bg">
+            <div class="about__block">
+                <h3 class="about__title">Компания <br>
+                    <strong class="about__title-srong">«ДПК ТЕРРАСА»</strong> <br>
+                    осуществляет продажу:</h3>
+                <div class="about__market">
+                    <ul class="about__market-list">
+                        <li class="about__market-item">Террасной доски</li>
+                        <li class="about__market-item">Декоративных ограждений</li>
+                        <li class="about__market-item">Универсальных профилей</li>
+                        <li class="about__market-item">Фасадной доски (сайдинга)</li>
+                    </ul>
+                    <ul class="about__market-list">
+                        <li class="about__market-item">Заборов</li>
+                        <li class="about__market-item">Аксессуаров из ДПК</li>
+                        <li class="about__market-item">Ступеней</li>
+                    </ul>
+                </div>
+                <div class="about__successful">
+                    <div class="about__successful-masck"></div>
+                    <h3 class="about__title">Мы более <strong class="about__title-srong">15</strong> лет <br> успешно работаем на рынке <br> отделочных материалов</h3>
+                    <div class="about__successful-block">
+                        <p class="about__successful-text">Продукция марки SAVEWOOD, крупнейшего отечественного производителя товаров из древесно-полимерного композита</p>
+                        <p class="about__successful-text">Предлагаем нашим клиентам качественные и проверенные стройматериалы для реализации самых разных дизайнерских проектов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <section class="section advantages">
+        <div class="container">
+            <h2 class="section-title">Наши преимущества</h2>
+            <div class="advantages__content">
+                    <div class="advantages__item">
+                        <h4 class="red-text advantages__item-title">Качество</h4>
+                        <div class="advantages__item-text">Для производства мы используем сырье от лучших мировых и российских производителей. Все работы выполняются в соответствии с технологиями, предъявляемыми российскими и европейскими стандартами качества</div>
+                    </div>
+                    <div class="advantages__item">
+                        <h4 class="red-text advantages__item-title">Гарантия</h4>
+                        <div class="advantages__item-text">Гарантия на все товары до 15 лет. Вся продукция проходит испытания качества в научных лабораториях Института элементоорганических соединений им. А.Н. Несмеянова РАН</div>
+                    </div>
+                    <div class="advantages__item">
+                        <h4 class="red-text advantages__item-title">Профессионализм</h4>
+                        <div class="advantages__item-text">В нашей команде работают профессионалы с многолетним опытом работы с ДПК</div>
+                    </div>
+                    <div class="advantages__item">
+                        <h4 class="red-text advantages__item-title">Индивидуальный поход</h4>
+                        <div class="advantages__item-text">Возможность производить продукцию любой длины, цвета, группы горючести Г2</div>
+                    </div>
+                    <div class="advantages__item">
+                        <h4 class="red-text advantages__item-title">Доставка</h4>
+                        <div class="advantages__item-text">Организуем доставку по всей России</div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="section popular">
+        <div class="container">
+            <h2 class="section-title">Популярные товары</h2>
+            <div class="popular__goods goods">
+                <div class="popular__goods-card goods-card">
+                    <img src="img/icon/hit.svg" alt="hit" class="hit-lable">
+                    <img src="img/goods2.jpg" alt="photo" class="goods-card__photo">
+                    <a href="#" class="goods-card__title">Террасная доска ДПК Savewood SW Ornus Темно-коричневый (T) 144х26 (1 м.п.)</a>
+                    <div class="goods-card__descr">
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип дизайна</span>
+                            <span class="goods-card__descr-text">Под дерево</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип</span>
+                            <span class="goods-card__descr-text">Шовная</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Площадь в упаковке</span>
+                            <span class="goods-card__descr-text">1.43</span>
+                        </div>
+                    </div>
+                    <div class="goods-card__price-block">
+                        <span class="red-text goods-card__price">395 ₽/м.п</span>
+                        <div class="goods-card__btns">
+                            <button class="goods-card__btn goods-card__wish"></button>
+                            <button class="goods-card__btn goods-card__comparison"></button>
+                        </div>
+                    </div>
+                    <button class="btn goods-card__cart">В корзину</button>
+                </div>
+                <div class="popular__goods-card goods-card">
+                    <img src="img/icon/hit.svg" alt="hit" class="hit-lable">
+                    <img src="img/goods1.jpg" alt="photo" class="goods-card__photo">
+                    <a href="#" class="goods-card__title">Террасная доска ДПК Savewood SW Ornus Темно-коричневый (T) 144х26 (1 м.п.)</a>
+                    <div class="goods-card__descr">
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип дизайна</span>
+                            <span class="goods-card__descr-text">Под дерево</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип</span>
+                            <span class="goods-card__descr-text">Шовная</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Площадь в упаковке</span>
+                            <span class="goods-card__descr-text">1.43</span>
+                        </div>
+                    </div>
+                    <div class="goods-card__price-block">
+                        <span class="red-text goods-card__price">395 ₽/м.п</span>
+                        <div class="goods-card__btns">
+                            <button class="goods-card__btn goods-card__wish"></button>
+                            <button class="goods-card__btn goods-card__comparison"></button>
+                        </div>
+                    </div>
+                    <button class="btn goods-card__cart">В корзину</button>
+                </div>
+                <div class="popular__goods-card goods-card">
+                    <img src="img/icon/hit.svg" alt="hit" class="hit-lable">
+                    <img src="img/goods2.jpg" alt="photo" class="goods-card__photo">
+                    <a href="#" class="goods-card__title">Террасная доска ДПК Savewood SW Ornus Терракот (T) 144х26 (1 м.п.)</a>
+                    <div class="goods-card__descr">
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип дизайна</span>
+                            <span class="goods-card__descr-text">Под дерево</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип</span>
+                            <span class="goods-card__descr-text">Шовная</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Площадь в упаковке</span>
+                            <span class="goods-card__descr-text">1.43</span>
+                        </div>
+                    </div>
+                    <div class="goods-card__price-block">
+                        <span class="red-text goods-card__price">395 ₽/м.п</span>
+                        <div class="goods-card__btns">
+                            <button class="goods-card__btn goods-card__wish"></button>
+                            <button class="goods-card__btn goods-card__comparison"></button>
+                        </div>
+                    </div>
+                    <button class="btn goods-card__cart">В корзину</button>
+                </div>
+                <div class="popular__goods-card goods-card">
+                    <img src="img/goods1.jpg" alt="photo" class="goods-card__photo">
+                    <a href="#" class="goods-card__title">Террасная доска ДПК Savewood SW Ornus Терракот (T) 144х26 (1 м.п.)</a>
+                    <div class="goods-card__descr">
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип дизайна</span>
+                            <span class="goods-card__descr-text">Под дерево</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Тип</span>
+                            <span class="goods-card__descr-text">Шовная</span>
+                        </div>
+                        <div class="goods-card__descr-item">
+                            <span class="goods-card__descr-title">Площадь в упаковке</span>
+                            <span class="goods-card__descr-text">1.43</span>
+                        </div>
+                    </div>
+                    <div class="goods-card__price-block">
+                        <span class="red-text goods-card__price">395 ₽/м.п</span>
+                        <div class="goods-card__btns">
+                            <button class="goods-card__btn goods-card__wish"></button>
+                            <button class="goods-card__btn goods-card__comparison"></button>
+                        </div>
+                    </div>
+                    <button class="btn goods-card__cart">В корзину</button>
+                </div>
+            </div>
+            <div class="goods-nav"></div>
+        </div>
+    </section>
+    <section class="section services">
+        <div class="container">
+            <h2 class="section-title">Услуги</h2>
+            <div class="services__block">
+                <div class="services__card">
+                    <div class="services__title-block">
+                        <img src="img/icon/truck.svg" alt="Доставка" class="services__icon">
+                        <h5 class="red-text services__title">Доставка</h5>
+                    </div>
+                    <p class="services__text">Доставка по Москве и Московской области от 2000 рублей. Доставка по России возможна при полной предоплате заказа. Подробная информация в разделе 
+                        <a href="#" class="services__link">«Доставка»</a></p>
+                </div>
+                <div class="services__card">
+                    <div class="services__title-block">
+                        <img src="img/icon/wrench.svg" alt="Монтаж" class="services__icon">
+                        <h5 class="red-text services__title">Монтаж</h5>
+                    </div>
+                    <p class="services__text">Возможен монтаж любой сложности квалифицированной бригадой монтажников. Предварительная стоимость работ рассчитывается на основании замера</p>
+                </div>
+                <div class="services__card">
+                    <div class="services__title-block">
+                        <img src="img/icon/ruler.svg" alt="Замер" class="services__icon">
+                        <h5 class="red-text services__title">Замер</h5>
+                    </div>
+                    <p class="services__text">Выезд замерщика − от 1500 руб.
+                        (в пределах бетонного кольца). Специалист прибудет в удобное для Вас время, произведёт замер и проконсультирует по всем вопросам</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section warranty-delivery">
+        <div class="container">
+            <div class="warranty-delivery__wrap">
+                <div class="warranty">
+                    <h2 class="section-title warranty-title">Гарантия</h2>
+                    <div class="warranty__content">
+                        <div class="warranty__item">
+                            <h3 class="warranty__title">Гарантия на монтаж</h3>
+                            <p class="warranty__text">Гарантия на монтаж от нашей компании составляет 1 год. Мы гарантируем, что террасный настил будет служить Вам длительное время</p>
+                        </div>
+                        <div class="warranty__item">
+                            <h3 class="warranty__title">Гарантия на продукцию</h3>
+                            <p class="warranty__text">Гарантия на продукцию. Мы продаем строительный материал высочайшего качества, предоставляем гарантию до 15 лет на весь ассортимент. При правильно произведенном монтаже и соблюдении всех правил эксплуатации наша продукция не деформируется, не потрескается, не подвергнется гниению, не пострадает при резких перепадах температур и прослужит Вам долгие годы</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="delivery">
+                    <h2 class="section-title">Доставка</h2>
+                    <img src="img/icon/care.svg" alt="!" class="care-img">
+                    <div class="delivery__text">
+                        <P class="delivery-text">Доставка по <strong class="delivery-text__strong">Москве и Московской области</strong> - в будние и выходные дни с <strong class="delivery-text__strong">09.00</strong> до <strong class="delivery-text__strong">20.00.</strong> Без предварительной договоренности по телефону доставка товара не производится. Перед загрузкой товара на складе курьерская служба свяжется
+                            с Вами для уточнения времени прибытия и деталей доставки.</P>
+                    </div>
+                    <div class="delivery-care">
+                        <h3 class="red-text delivery-care__title">Обращаем ваше внимание: </h3>
+                        <p class="delivery-text">Водители, осуществляющие доставку, не производят выгрузку товара. Разгрузка товара осуществляется покупателем самостоятельно.
+                        </p>
+                        <h3 class="delivery-care__title-black">Доставка по РФ возможна при полной предоплате заказа. Оплатить заказ можно:</h3>
+                        <ul class="about__market-list">
+                            <li class="about__market-item">Банковской картой</li>
+                            <li class="about__market-item">Банковским переводом (в любом банке или в отделении Почты России) - в этом случае оплачивается комиссия в соответствии с тарифом банка</li>
+                            <li class="about__market-item">С помощью интернет-банкинга</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="section footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-top__content">
+                    <div class="footer-top__left">
+                        <h2 class="section-title footer-top__title">Оплата</h2>
+                        <span class="footer-top__descr">Оплатить покупку можно любым <br> удобным для Вас способом:</span>
+                        <div class="footer__pay">
+                            <ul class="footer__pay-list">
+                                <li class="about__market-item footer__pay-item">Безналичным</li>
+                                <li class="about__market-item footer__pay-item">Наличными средствами</li>
+                            </ul>
+                            <ul class="footer__pay-list">
+                                <li class="about__market-item footer__pay-item">Банковской картой на основании счета</li>
+                                <li class="about__market-item footer__pay-item">Банковской картой онлайн</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form class="footer__form footer-form">
+                        <div class="footer-form__input-group">
+                            <input type="text" class="footer-form__input form__input" placeholder="Имя">
+                            <input type="text" class="footer-form__input form__input" placeholder="Фамилия">
+                        </div>
+                        <div class="footer-form__input-group">
+                            <input type="text" class="footer-form__input form__input" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                            <input type="text" class="footer-form__input form__input" placeholder="Email">
+                        </div>
+                        <input type="text" class="footer-form__input form__input footer-form__input-comm" placeholder="Комментарий">
+                        <div class="footer-form__input-group footer-form__input-group-bottom">
+                            <div class="footer-form__check">
+                                <input type="checkbox" class="footer-form__checkbox">
+                                <span class="footer-form__check-text">Принять условия обработки данных</span>
+                            </div>
+                            <button class="btn form__btn footer-form__btn">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom__wrap container">
+                <div class="logo-block footer__logo-block">
+                    <a href="#" class="footer__logo logo">
+                        <img src="img/footer-logo.svg" alt="Терраса" class="header__logo-img">
+                </a>
+                <div class="select select-geo">
+                    <img src="img/icon/geo.svg" alt="geo" class="select-geo__icon">
+                    <div class="select__header select-geo__header">
+                        <div class="select-geo__text">Москва</div>
+                        <img src="img/icon/footer-arr.svg" alt="arr" class="select-geo__arr">
+                    </div>
+                </div>
+                </div>
+                <div class="footer__column-center column-center">
+                    <div class="footer__business-hours">
+                        <img src="img/icon/clock.svg" alt="clock" class="business-hours__icon">
+                        <div class="business-hours">
+                            <div class="business-hours__item">
+                                <span class="business-hours__item-title">Офис:</span>
+                                <span class="business-hours__item-descr">10:00 - 21:00</span>
+                            </div>
+                            <div class="business-hours__item">
+                                <span class="business-hours__item-title">Склад:</span>
+                                <span class="business-hours__item-descr">10:00 - 18:00</span>
+                            </div>
+                            <div class="business-hours__item">
+                                <span class="business-hours__item-title">Сб - Вс:</span>
+                                <span class="business-hours__item-descr">Выходной</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <a href="#" class="header-info__link footer-info__link">Доставка и оплата</a>
+                    <a href="#" class="header-info__link footer-info__link">Гарантия и возврат</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/wNumb.min.js"></script>
+    <script src="js/script.js" ></script>
+</body>
+</html>
